@@ -11,19 +11,19 @@ function App() {
       hills.push(<MoleContainer key={i} setScore={setScore} score={score} />)
     }
     return (
-        <div>
-            {hills}
-        </div>
+      <div>
+        { hills }
+      </div>
     )
-}
-
-return (
+  }
+  
+  return (
     <div className="App">
-        <h1>React-a-Mole!</h1>
-        {score}
-        {createMoleHill()}
+      <h1>React-A-Mole!</h1>
+      {score}
+      {createMoleHill()}
     </div>
-)
+  );
 }
 
-export default App
+export default App;
